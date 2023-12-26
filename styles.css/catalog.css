@@ -1,0 +1,48 @@
+.col img {
+    min-height: 300px;
+    max-height: 316px;
+}
+
+.card:hover {
+    border:3px solid rgba(0,0,255,.5);
+}
+
+.hero {
+    background-color: rgb(169, 19, 19);
+}
+
+.hero p {
+    font-size: 40px;  
+    color: white;  
+    font-family: 'Raleway';
+    font-variant-caps: all-petite-caps;
+}
+
+h1 {
+        font-size: 40px;
+        color: white;       
+        font-family: 'Raleway';
+        font-weight: 800;
+    
+}
+
+.missionstatement {
+    background: linear-gradient(rgba(255,255,255, 0.2), rgba(255,255,255, 0.2)), url('../images/ourimage.jpg') no-repeat center center / cover;
+    font-size: 30px;
+    color: black;
+    height: 400px;
+    --bs-gutter-x:0;
+    font-weight: 500;
+    font-family: 'Roboto';
+}
+
+.missionstatement h3 {
+    font-family: 'Roboto';
+    font-size: 50px;
+}
+
+@media (max-width:767px) {
+    .missionstatement p {
+        font-size: 20px;
+    }
+}
